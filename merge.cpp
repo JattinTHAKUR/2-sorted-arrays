@@ -6,7 +6,9 @@ void merge(int arr1[], int n, int arr2[], int m, int arr3[]) {
   int i = 0; //first index of arr1
   int j = 0; //first index of arr2
   while(i<n && j<m){
-    
+    if(arr1[i] < arr2[j]){
+      arr3[]
+    }
   }
 }
 
@@ -19,7 +21,7 @@ int main() {
   
   int arr3[9] = {0};
 
-  merge(arr1, 5, arr2, 4, arr3 );
+  merge(arr1, 5, arr2, 4, arr3 ); //arr1 ,array size. 
   print(arr3,9);
 
   return 0;
